@@ -1,10 +1,10 @@
-vCard - Personal Portfolio
+Winston's Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Winston Zhang
+Winston Zhang
+Final Year Engineering Student
 
 Show Contacts
 
