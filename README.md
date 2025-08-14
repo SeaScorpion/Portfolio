@@ -1,3 +1,3 @@
 # My's Portfolio
 
-![Template]([https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
+![Template](https://github.com/codewithsadee/vcard-personal-portfolio)
