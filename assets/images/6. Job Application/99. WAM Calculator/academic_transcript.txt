@@ -1,0 +1,33 @@
+2021 	S1C 	AERO1560 	Introduction to Aerospace Engineering 	80.0 	DI 	6
+2021 	S1C 	ENGG1111 	Integrated Engineering 1 	79.0 	DI 	6
+2021 	S1C 	ENGG1810 	Introduction to Engineering Computing 	72.0 	CR 	6
+2021 	S1C 	MATH1002 	Linear Algebra 	59.0 	PS 	3
+2021 	S1C 	MATH1021 	Calculus Of One Variable 	72.0 	CR 	3
+2021 	S2C 	AERO1400 	Intro to Aircraft Construction and Design 	68.0 	CR 	6
+2021 	S2C 	AMME1362 	Materials 1 	56.0 	PS 	6
+2021 	S2C 	AMME1802 	Engineering Mechanics 	66.0 	CR 	6
+2021 	S2C 	MATH1005 	Statistical Thinking with Data 	59.0 	PS 	3
+2021 	S2C 	MATH1023 	Multivariable Calculus and Modelling 	59.0 	PS 	3
+2022 	S1C 	AMME2000 	Engineering Analysis 	50.0 	PS 	6
+2022 	S1C 	AMME2450 	Design and Production 	75.0 	DI 	6
+2022 	S1C 	AMME2500 	Engineering Dynamics 	59.0 	PS 	6
+2022 	S1C 	AMME2700 	Instrumentation 	60.0 	PS 	6
+2022 	S2C 	AERO2703 	Aircraft Performance and Operations 	77.0 	DI 	6
+2022 	S2C 	AMME2200 	Introductory Thermofluids 	67.0 	CR 	6
+2022 	S2C 	AMME2301 	Mechanics of Solids 	50.0 	PS 	6
+2022 	S2C 	MECH2400 	Mechanical Design 1 	58.0 	PS 	6
+2023 	S1C 	AERO3261 	Propulsion 	58.0 	PS 	6
+2023 	S1C 	AERO3460 	Aerospace Design 1 	61.0 	PS 	6
+2023 	S1C 	AMME3500 	System Dynamics and Control 	74.0 	CR 	6
+2023 	S2C 	AMME3060 	Engineering Methods 	66.0 	CR 	6
+2023 	S2C 	AMME5902 	Manufacturing of Micro- and Nanosystems 	73.0 	CR 	6
+2023 	S2C 	MECH3260 	Thermal Engineering and Environment 	54.0 	PS 	6
+2023 	S2C 	MECH3361 	Mechanics of Solids 2 	65.0 	CR 	6
+2024 	S1C 	AMME5202 	Computational Fluid Dynamics 	76.0 	DI 	6
+2024 	S1C 	MECH3261 	Fluid Mechanics 2 	59.0 	PS 	6
+2024 	S1C 	MECH3362 	Engineering Materials for Adv Manufacturing 	61.0 	PS 	6
+2024 	S1C 	MECH3660 	Manufacturing Engineering 	77.0 	DI 	6
+2024 	S2C 	AMME4401 	Industrial and Product Design Engineering 	68.0 	CR 	6
+2024 	S2C 	ENGG3112 	Interdisciplinary Engineering 	81.0 	DI 	6
+2024 	S2C 	MECH3460 	Mechanical Systems Design 2 	77.0 	DI 	6
+2024 	S2C 	MECH5255 	Air Conditioning and Refrigeration 	79.0 	DI 	6

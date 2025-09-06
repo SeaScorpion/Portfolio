@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Winston Zhang's Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/icon2.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/winston icon.png" alt="Winston Zhang" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Winston Zhang">Winston Zhang</h1>
+
+          <p class="title">Final Year Mechanical Engineering Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:winston1c9hv@gmail.com" class="contact-link">winston1c9hv@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+
+              <a href="https://www.linkedin.com/in/winstonyszhang/" class="contact-link" target="_blank">in/winstonyszhang</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2002-11">November, 2002</time>
+
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Sydney, NSW, Australia</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a final year mechanical engineering student at the University of Sydney with a focus in
+            simulation-driven iterative design.
+            I've been part of a student society building single seater Formula 1 style race cars (FSAE) called Sydney
+            Motorsports since 2022, where I've
+            developed proven hands-on experience in aerodynamics, CFD, FEA as well as composite manufacturing for high
+            performance applications.
+          </p>
+
+          <p>
+            I've also been lucky to be part of the sustainable aviation industry through Dovetail Electric Aviation,
+            where I was a Computational Fluid Dynamics (CFD)
+            engineer that helped validate existing CAD as well as participate in the drag-reduction optimization
+            process.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/drawing-tools.png" alt="engineer icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Engineering</h4>
+
+                <p class="service-item-text">
+                  Fluid Mechanics, Composites, Rapid Prototyping, Robotics
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/network.png" alt="tech icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Technology</h4>
+
+                <p class="service-item-text">
+                  Networking, NAS, Homelab, UNIX
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/handcraft.png" alt="craft icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Arts & Crafts</h4>
+
+                <p class="service-item-text">
+                  Model building & painting, Calligraphy, Lightbox
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/poinsettia.png" alt="drinks icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Food & Drink</h4>
+
+                <p class="service-item-text">
+                  Cooking, Baking, Coffee, Cocktails
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title"></h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <a href="./assets/file/Winston Zhang Resume 6_2.pdf" download>
+            <h2 class="h2 article-title">Resume<img src="./assets/images/download.png" alt="download icon" height="24px"
+                style="display: inline-block;margin-left: 10px;vertical-align: middle;"></h2>
+          </a>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Sydney</h4>
+
+              <span>2021-present</span>
+
+              <p class="timeline-text">
+                Completed coursework in CFD, thermofluids, structural mechanics,
+                manufacturing, product design, and HVAC, with strong performance in design and applied engineering
+                subjects.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Saint Kentigern College</h4>
+
+              <span>2015 — 2020</span>
+
+              <p class="timeline-text">
+
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Sydney Motorsports</h4>
+
+              <ol class="timeline-role">
+                <li>
+                  <h5 class="timeline-item-role">Advisor</h5>
+
+                  <span>Jan 2025 — Present</span>
+
+                  <p class="timeline-text">
+                    Working with the aerodynamics team to validate the full car aerodynamic package using the University
+                    of Sydney’s wind tunnel as part of graduate thesis project.
+                    Provided technical guidance on CFD validation and composite manufacturing, utilising in-house
+                    knowledge and development over the 4 years with the team.
+                  </p>
+                </li>
+                <li>
+                  <h5 class="timeline-item-role">Lead Aerodynamics Engineer</h5>
+
+                  <span>Jan 2024 — Dec 2024</span>
+
+                  <p class="timeline-text">
+                    Led a team of 10 student engineers for the in-house development and manufacturing of a full
+                    aerodynamics package using SOLIDWORKS, ANSYS Fluent, laser cutting, and 3D printing.
+                    We delivered a structurally robust aerodynamic package with improved structural rigidity over
+                    previous years while maintaining a strict 3 kg weight target.
+                    This required the design of a rib and spar system for the front wing to handle both expected and
+                    unexpected loads during testing and competition.
+                    Coordinated the large full car assemblies (>1000 parts) to ensure team design cohesion, enforced
+                    compliance with FSAE rules, and managed my personal and team’s timelines
+                    and task delegation to ensure the car was delivered on time.
+                  </p>
+                </li>
+                <li>
+                  <h5 class="timeline-item-role">Aerodynamics Engineer</h5>
+
+                  <span>Jul 2022 — Dec 2023</span>
+
+                  <p class="timeline-text">
+                    Designed and validated the front wing and undertray of the SM23 vehicle using CFD within Ansys
+                    Fluent.
+                    Conducted an iterative design process using a large computing cluster to optimize aerodynamic
+                    performance.
+                    Participated in mold design and manufacturing, and performed carbon fiber layups using
+                    pre-impregnated and conventional
+                    wet-layup techniques to produce high-performance composite components.
+                  </p>
+                </li>
+              </ol>
+
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Dovetail Electric Aviation</h4>
+
+              <ol class="timeline-role">
+                <li>
+                  <h5 class="timeline-item-role">Computational Fluid Dynamics Engineer</h5>
+
+                  <span>Aug 2023 — Jan 2024</span>
+
+                  <p class="timeline-text">
+                    Reverse-engineered a propeller nacelle assembly by generating parametric CAD models from 3D scans in
+                    SOLIDWORKS.
+                    Validated scanned propeller geometry in ANSYS Fluent, allowing for the optimisation of cooling duct
+                    geometries to be developed,
+                    minimising drag and improving airflow duct efficiency. Created efficient lightweight CFD models to
+                    reduce simulation time and
+                    resource consumption, without impact to data resolution.
+                  </p>
+                </li>
+              </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Skills</h3>
+
+          <div class="skills-divl">
+            <div class="title-wrapper">
+              <h4 class="h4">Software</h4>
+            </div>
+            <ul class="skills-list">
+
+              <li class="skills-item">
+                <h5 class="h5"> Created mechanical designs with DFM principles in SOLIDWORKS and Autodesk Inventor</h5>
+              </li>
+              <li class="skills-item">
+                <h5 class="h5">Conducted various numerical simulations within SOLIDWORKS and the ANSYS suite such as
+                  FEA, topology studies, CFD and thermal analysis</h5>
+              </li>
+              <li class="skills-item">
+                <h5 class="h5">Developed MATLAB scrips for numerical simulations as well as various data-parsing
+                  programs.</h5>
+              </li>
+              <li class="skills-item">
+                <h5 class="h5">Proficient in Python through various calculation and simulation scripts.</h5>
+              </li>
+              </li>
+            </ul>
+          </div>
+          <div class="skills-divr">
+            <div class="title-wrapper">
+              <h4 class="h4">Manufacturing</h4>
+            </div>
+            <ul class="skills-list">
+
+              <li class="skills-item">
+                <h5 class="h5">Carbon fiber composite parts with pre-impregnated and conventional wet-layup techniques
+                </h5>
+              </li>
+              <li class="skills-item">
+                <h5 class="h5">Create composite molds with contemporary techniques such as hot wire cutting, laser
+                  cutting, 3D printing, along with conventional techniques such as hand-sculpting foam molds</h5>
+              </li>
+              <li class="skills-item">
+                <h5 class="h5">3D Printing and laser cutting for rapid design and manufacturing</h5>
+              </li>
+              <li class="skills-item">
+                <h5 class="h5">Extensive experience in common workshop tooling, and machinery</h5>
+              </li>
+            </ul>
+          </div>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Fluids Simulation</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Engineering Project</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Tech Project</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Fluids Simulation</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Engineering Project</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Tech Project</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="fluids simulation">
+              <a href="https://docs.google.com/document/d/1UU4qE9T2-8Xff3EUaVWbpvFNmkGboR5AbDPHe1GqKEc/edit?tab=t.jkuvtpqjgsr3"
+                target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/CFDFW Streamline 4.png" alt="FSAE_CFD" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">FSAE CFD Analysis</h3>
+
+                <p class="project-category">Fluids Simulation</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="engineering project">
+              <a href="https://docs.google.com/document/d/1UU4qE9T2-8Xff3EUaVWbpvFNmkGboR5AbDPHe1GqKEc/edit?tab=t.33osyrpd8an3"
+                target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/robotic_arm.png" alt="Robotic Arm" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Robotic Arm</h3>
+
+                <p class="project-category">Engineering Project</p>
+
+              </a>
+            <li class="project-item  active" data-filter-item data-category="fluids simulation">
+              <a href="https://docs.google.com/document/d/1UU4qE9T2-8Xff3EUaVWbpvFNmkGboR5AbDPHe1GqKEc/edit?tab=t.41933yh48lzo"
+                target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/CFD Prop Assem Turb Visc 1.png" alt="Propeller CFD" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Propeller CFD</h3>
+
+                <p class="project-category">Fluids Simulation</p>
+
+              </a>
+            <li class="project-item  active" data-filter-item data-category="engineering project">
+              <a href="https://docs.google.com/document/d/1UU4qE9T2-8Xff3EUaVWbpvFNmkGboR5AbDPHe1GqKEc/edit?tab=t.0"
+                target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/FWFAB Inner.jpg" alt="FSAE Front Wing Fabrication" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">FSAE Front Wing Fabrication</h3>
+
+                <p class="project-category">Engineering Project</p>
+
+              </a>
+            <li class="project-item  active" data-filter-item data-category="tech project">
+              <a href="https://docs.google.com/document/d/1UU4qE9T2-8Xff3EUaVWbpvFNmkGboR5AbDPHe1GqKEc/edit?tab=t.pbt4fiapa18u" target="_blank">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/Lily58 V1.jpg" alt="Lily 58" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Lily 58</h3>
+
+              <p class="project-category">Tech Project</p>
+
+              </a>
+            <li class="project-item  active" data-filter-item data-category="tech project">
+              <a href="https://docs.google.com/document/d/1UU4qE9T2-8Xff3EUaVWbpvFNmkGboR5AbDPHe1GqKEc/edit?tab=t.8j04k2t240w" target="_blank">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/Mouse.jpg" alt="Custom PC Mouse" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Custom PC Mouse</h3>
+
+              <p class="project-category">Tech Project</p>
+
+
+              </a>
+
+            <li class="project-item  active" data-filter-item data-category="engineering project">
+              <a href="https://docs.google.com/document/d/1UU4qE9T2-8Xff3EUaVWbpvFNmkGboR5AbDPHe1GqKEc/edit?tab=t.ywf3btgi6xw2#" target="_blank">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/Plane 2.jpg" alt="Carbon Fiber UAV" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Carbon Fiber UAV</h3>
+
+              <p class="project-category">Engineering Project</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="tech project">
+              <a href="https://docs.google.com/document/d/1UU4qE9T2-8Xff3EUaVWbpvFNmkGboR5AbDPHe1GqKEc/edit?tab=t.aakpsmh5i8fz#" target="_blank">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/Space Mouse.jpg" alt="DIY Space Mouse" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">DIY Space Mouse</h3>
+
+              <p class="project-category">Tech Project</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="tech project">
+              <a href="https://docs.google.com/document/d/1UU4qE9T2-8Xff3EUaVWbpvFNmkGboR5AbDPHe1GqKEc/edit?tab=t.aakpsmh5i8fz#" target="_blank">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/homelab.jpg" alt="homelab pc" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Homelab, UNIX, Networking</h3>
+
+              <p class="project-category">Tech Project</p>
+
+              </a>
+            </li>
+          </ul>
+
+          <p style="color: gray; font-size: smaller; padding-top: 7px;">note: some documentation may not be complete and
+            written up.</p>
+
+        </section>
+
+      </article>
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://formspree.io/f/mdkdjkjy" class="form" data-form method="post">
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
